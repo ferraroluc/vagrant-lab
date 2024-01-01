@@ -17,8 +17,6 @@ ansible vagrant -i inventory.ini -m ping
 
 ## Destroy
 
-## Start
-
 ```bash
 chmod +x destroy.sh
 ./destroy.sh
