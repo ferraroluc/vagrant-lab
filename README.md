@@ -40,3 +40,8 @@ chmod +x stop.sh
 chmod +x destroy.sh
 ./destroy.sh
 ```
+
+## ToDo
+
+- Adapt fow Windows
+- Change CentOS for another supported distribution
