@@ -41,7 +41,19 @@ chmod +x destroy.sh
 ./destroy.sh
 ```
 
+# Web Servers
+
+For installing Nginx on the web server group, you can use the following command:
+
+```bash
+ansible-playbook -i inventory.ini playbook-nginx.yml
+```
+
+## Links
+
+- http://192.168.56.101
+- http://192.168.56.103
+
 ## ToDo
 
 - Adapt fow Windows
-- Change CentOS for another supported distribution
