@@ -17,8 +17,7 @@ In order to work on Windows, the Vagrantfiles would require some modifications.
 ## Start
 
 ```bash
-chmod +x start.sh
-./start.sh
+vagrant up
 ```
 
 ## Test Ansible
@@ -30,15 +29,13 @@ ansible vagrant -i inventory.ini -m ping
 ## Stop
 
 ```bash
-chmod +x stop.sh
-./stop.sh
+vagrant halt
 ```
 
 ## Destroy
 
 ```bash
-chmod +x destroy.sh
-./destroy.sh
+vagrant destroy -f
 ```
 
 # Web Servers
@@ -56,4 +53,4 @@ ansible-playbook -i inventory.ini playbook-nginx.yml
 
 ## ToDo
 
-- Adapt fow Windows
+- Adapt for Windows
