@@ -21,3 +21,8 @@
         - name: Print when errors
           debug:
             msg: "I caught an error, can do stuff here to fix it, :-)"
+
+      always:
+        - name: Print always
+          debug:
+            msg: "I always execute, no matter what, :-|"
